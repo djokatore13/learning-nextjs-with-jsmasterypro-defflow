@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 // Components
 import ThemeToggle from './ThemeToggle'
+import MobileNavigation from './MobileNavigation'
 
 
 export default function Navbar() {
@@ -25,6 +26,8 @@ export default function Navbar() {
 
       <div className="flex-between gap-5">
         <ThemeToggle />
+        {/* Mobile Navigation */}
+        <MobileNavigation />
       </div>
     </nav>
   )

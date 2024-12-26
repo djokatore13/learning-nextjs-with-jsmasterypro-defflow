@@ -1,9 +1,9 @@
 
-import { signOut } from "../../../auth";
-import ROUTES from "../../../constants/routes";
+// import { signOut } from "../../../auth";
+// import ROUTES from "../../../constants/routes";
 
 // Components
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 // In this component we will use servers side sing out with auth() amd form action attribute
 export default async function Home() {
@@ -14,7 +14,7 @@ export default async function Home() {
         <h1 className="h1-bold font-space-grotesk">Welcome to the world of NextJS</h1>
         <h2 className="h2-bold">Welcome to the world of NextJS</h2>
 
-        <form 
+        {/* <form 
           className="px-10 mt-10" 
           action={
             async() => {
@@ -25,7 +25,7 @@ export default async function Home() {
           }
         >
           <Button type="submit">Log Out</Button>
-        </form>
+        </form> */}
       </div>
     </>
   );
