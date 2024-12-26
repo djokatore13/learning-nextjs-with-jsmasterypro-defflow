@@ -1,5 +1,5 @@
 
-import { auth, signOut } from "../../../auth";
+import { signOut } from "../../../auth";
 import ROUTES from "../../../constants/routes";
 
 // Components
@@ -7,10 +7,6 @@ import { Button } from "@/components/ui/button";
 
 // In this component we will use servers side sing out with auth() amd form action attribute
 export default async function Home() {
-
-  const session = await auth();
-
-  console.log('Session:', session);
 
   return (
     <>
